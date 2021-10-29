@@ -31,6 +31,7 @@ const AddUser = (props) => {
         title: "Invalid Age",
         message: "OOPS! Please Fill Correct Age",
       });
+      return;
     }
     props.onAddUser(enterUser, enterAge);
     setUser("");
